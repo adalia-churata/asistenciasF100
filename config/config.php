@@ -14,7 +14,7 @@ define('ROOT_PATH',   dirname(__DIR__) . '/');
 define('APP_ROOT',    dirname(__DIR__));
 
 // Ruta web del navegador
-define('BASE_URL', 'https://controlasistencia.duckdns.org');
+define('BASE_URL', 'https://controlasistencia.duckdns.org/');
 
 // ── Zona horaria ──────────────────────────────────────────────
 date_default_timezone_set('America/Lima');
