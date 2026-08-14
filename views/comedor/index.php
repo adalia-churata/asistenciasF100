@@ -149,7 +149,7 @@ const BADGE_CLASS = {DESAYUNO:'badge-DESAYUNO',ALMUERZO:'badge-ALMUERZO',CENA:'b
 const LABEL = {DESAYUNO:'☕ Desayuno',ALMUERZO:'🍽️ Almuerzo',CENA:'🌙 Cena'};
 
 async function loadAreas() {
-  const r = await fetch('<?= BASE_URL ?>/api/index.php?action=areas');
+  const r = await fetch('<?= BASE_URL ?>api/index.php?action=areas');
   const j = await r.json();
   const sel = document.getElementById('f-area');
 
