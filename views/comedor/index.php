@@ -7,9 +7,7 @@ require_once ROOT_PATH . 'views/layouts/header.php';
 ini_set('display_errors', 0);
 error_reporting(E_ALL);
 
-header('Content-Type: application/json; charset=utf-8');
 
-$respuesta = ['success' => false, 'mensaje' => ''];
 ?>
 
 <!-- Filters -->
