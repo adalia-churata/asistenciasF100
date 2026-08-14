@@ -14,17 +14,17 @@ define('ROOT_PATH',   dirname(__DIR__) . '/');
 define('APP_ROOT',    dirname(__DIR__));
 
 // Ruta web del navegador
-define('BASE_URL', 'https://' . $_SERVER['HTTP_HOST'] . '/');
+define('BASE_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/');
 
 // ── Zona horaria ──────────────────────────────────────────────
 date_default_timezone_set('America/Lima');
 
 // ── Base de datos ─────────────────────────────────────────────
-define('DB_HOST',    getenv('DB_HOST')    ?: 'sql302.infinityfree.com');
+define('DB_HOST',    getenv('DB_HOST')    ?: 'localhost');
 define('DB_PORT',    getenv('DB_PORT')    ?: '3306');
-define('DB_NAME',    getenv('DB_NAME')    ?: 'if0_42531105_filomena_100');
-define('DB_USER',    getenv('DB_USER')    ?: 'if0_42531105');
-define('DB_PASS',    getenv('DB_PASS')    ?: 'qzbdDB2QLnM1KoO');
+define('DB_NAME',    getenv('DB_NAME')    ?: 'filomena_100');
+define('DB_USER',    getenv('DB_USER')    ?: 'admin');
+define('DB_PASS',    getenv('DB_PASS')    ?: '12345678');
 define('DB_CHARSET', 'utf8mb4');
 
 // ── Horas de comedor (valores por defecto, sobreescribibles desde BD) ──

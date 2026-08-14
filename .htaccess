@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /asistencia-filomena-100/
+RewriteBase /
 
 # Evita procesar archivos o carpetas reales
 RewriteCond %{REQUEST_FILENAME} !-f
